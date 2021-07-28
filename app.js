@@ -6,6 +6,7 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 //View Engine Setup
 app.engine('handlebars', exphbs({defaultLayout: false}));
@@ -87,4 +88,4 @@ if( MetroGDL == "Yes" && MasDe30 == "Yes"){
 
 
 
-app.listen(3000, () => console.log('Server Started...'))
+app.listen(port, () => console.log('Server Started...'))
