@@ -1,5 +1,5 @@
 # Multiburo_Challenge
-Challengue made by Multiburo
+Challenge made by Multiburo
 
 Desarrollar una landing page.
 
