@@ -38,14 +38,14 @@ const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     secure: true,
     auth: {
-        user: 'test.multiburo@gmail.com',
-        pass: 'tuqrkmzmetjpmsdv'
+        user: 'xx@mail.com',
+        pass: 'xxpass'
     }
 });
 
 //Mail Option 1
 let mailOptions = {
-    from: '"Multiburo" <test.multiburo@gmail.com>', // sender address
+    from: '"source" <xx@mail.com>', // sender address
     to: correo, // list of receivers
     subject: "Multiburó Agradece Tu Tiempo", // Subject line
     text: "", // plain text body
@@ -54,7 +54,7 @@ let mailOptions = {
 
 //Mail Options2
 let mailOptions2 = {
-    from: '"Multiburo" <test.miltiburo@gmail.com>', // sender address
+    from: '"Multiburo" <xx@mail.com>', // sender address
     to: correo, // list of receivers
     subject: "Multiburó Agradece Tu Tiempo", // Subject line
     text: "", // plain text body
